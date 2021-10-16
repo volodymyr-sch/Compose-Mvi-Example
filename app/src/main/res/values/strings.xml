@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MviSample</string>
+
+    <string name="main_screen_title">TODO List</string>
+    <string name="main_screen_welcome_title">Welcome, have a nice day!</string>
+    <string name="main_screen_item_profile">Profile</string>
+    <string name="main_screen_item_calendar">Calendar</string>
+    <string name="main_screen_item_team">Team</string>
+</resources>

@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.1'
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30'
+        classpath "io.realm:realm-gradle-plugin:10.8.0"
+    }
+
+    ext {
+        compose_version = '1.0.3'
+        coroutines_version = '1.5.1'
+        mockito_version = '2.28.2'
+        dagger_version = '2.38.1'
+        realm_version = '10.8.0'
+    }
+}
